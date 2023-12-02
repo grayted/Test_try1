@@ -1,6 +1,7 @@
 package com.example.veggieneighbors
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -21,6 +22,9 @@ class NaviActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityNaviBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        Log.d("MPMPMP","mpsdasjnfdsbfosdondsfndsfsajfsaifnsidnsapdjslajklsnsdcbonaso")
+        Log.d("Develop","DevelopsoDevelopDevelop")
 
         var bnv_main:BottomNavigationView = binding.navigationView
 
